@@ -5,7 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
 .leftnav img {
     width: 150px;
     padding-right:10px;
@@ -103,6 +105,7 @@ label {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    margin-bottom: 100px;
 
    }
 .grid1{
@@ -169,4 +172,33 @@ footer{
     position: fixed;
     bottom: 0;
     right: 0;
+  }
+  footer{
+    background-color: #000000;
+    width: auto;
+    color: white;
+    width: 100%;
+  }
+  .columns{
+    display:flex;
+    justify-content: space-between;
+    padding-top:50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+  }
+  /* .columns div {
+    padding: 50px;
+  } */
+
+  .columns p {
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 0%
+  }
+  .columns h2 {
+    margin-bottom:25px;
+  }
+  .last-col {
+    padding-top: 120px;
   }
