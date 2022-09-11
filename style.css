@@ -185,7 +185,7 @@ footer{
     padding-top:50px;
     padding-left: 150px;
     padding-right: 150px;
-    padding-bottom: 200px;
+    /* padding-bottom: 150px; */
   }
   /* .columns div {
     padding: 50px;
@@ -200,5 +200,21 @@ footer{
     margin-bottom:25px;
   }
   .last-col {
-    padding-top: 120px;
+    padding-top: 220px;
+    padding-bottom: 50px;
+  }
+  
+  .last-col img {
+    width:50px;
+  }
+  .last-col p {
+    font-size:20px;
+    
+  }
+  .p{
+    padding-top: 30px;
+  }
+  .p p span{
+    font-weight: bolder;
+    
   }
